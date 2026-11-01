@@ -8,8 +8,8 @@ Gaps are cheap to fix. They are expensive because a capable agent usually gets
 past one without fixing it. A gap that was worked around leaves no error in the
 log, only a longer, stranger path through the work.
 
-They repeat, they hide (a workaround reports as success), and they compound: later
-work builds on whatever the half-working route produced.
+They repeat, they hide because a workaround reports as success, and they compound
+because later work builds on whatever the half-working route produced.
 
 ## Detection signals
 
@@ -38,6 +38,8 @@ Any one is worth a look. Two on the same goal confirm a gap.
    a different approach", "it seems I don't have access to X, so" right before a
    switch.
 
+A chain is the goal, the first failure, each route tried, and what later work built on the result.
+
 ## Costing a gap
 
 For each chain, note what it cost this session:
@@ -53,9 +55,9 @@ The result is a table the user can act on in a few minutes:
 
 | Grant | What it unblocks | Cost this session | How to grant |
 |---|---|---|---|
-| Read and write on `<folder>` | Writing output directly; removes the copy-via-temp chain | About 40 turns; output landed in the wrong place twice | Add the folder to the session's working paths, or allow `Bash(cp:<folder>/*)` in settings |
-| The `gh` CLI, or the GitHub MCP server | PR and CI inspection; removes hand-made REST calls | About 25 turns plus rate-limit failures that looked like flakes | Install and sign in to `gh`, or configure the MCP server |
-| Network access to `<host>` | Dependency installs; removes the vendored copy | About 15 turns plus a stale dependency | Add the host to the environment's allowed hosts |
+| Read and write on `<folder>` | Writing output directly; removes the copy-via-temp chain | N turns; output landed in the wrong place | Add the folder with `/add-dir`, or allow the specific commands in settings |
+| The `gh` CLI, or the GitHub MCP server | PR and CI inspection; removes hand-made REST calls | N turns plus rate-limit failures that looked like flakes | Install and sign in to `gh`, or configure the MCP server |
+| Network access to `<host>` | Dependency installs; removes the vendored copy | N turns plus a stale dependency | Add the host to the environment's allowed hosts |
 
 Rules:
 
