@@ -1,0 +1,16 @@
+{
+  "name": "recommended",
+  "description": "Installs a small set of well-liked official plugins in one step",
+  "author": {
+    "name": "vonRoX"
+  },
+  "repository": "https://github.com/vonRoX/claude-setup",
+  "license": "MIT",
+  "dependencies": [
+    "claude-md-management@claude-plugins-official",
+    "claude-code-setup@claude-plugins-official",
+    "feature-dev@claude-plugins-official",
+    "frontend-design@claude-plugins-official",
+    "code-review@claude-plugins-official"
+  ]
+}
