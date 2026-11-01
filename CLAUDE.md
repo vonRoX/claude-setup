@@ -1,5 +1,4 @@
 # claude-setup
-
 A Claude Code plugin marketplace and the master of the global setup: what
 ships here reaches every session that installs it.
 
@@ -10,7 +9,5 @@ leave the merge to the owner.
 Shipped files never name a project, path, person, account or version (the
 `vonRoX` owner fields are the only exception).
 
-Checks:
-- `claude plugin validate .`
-- `node --test scripts/`
-- `node scripts/check-principles.mjs plugins/core/principles.md`
+Checks: `claude plugin validate .`, `node --test scripts/`,
+`node scripts/check-principles.mjs plugins/core/principles.md`.
