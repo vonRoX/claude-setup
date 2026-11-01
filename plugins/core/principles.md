@@ -25,7 +25,7 @@ Two lines are firm: never invent facts, and never delete my rules silently.
 
 ## How we work
 - Keep the main thread for the plan and the checking. Use subagents for noisy output, parallel pieces and independent review. For audits, mass migrations or cross-checked research, suggest a dynamic workflow.
-- If a tool or access is missing, fix the cause or ask me instead of building a workaround. Prefer built-in tools, then proven and widely used ones; build your own only as a last resort.
+- If a tool or access is missing, fix the cause or ask me instead of building a workaround. Lean on Claude Code's native tools (https://code.claude.com/docs/en/tools-reference) and suggest them when they fit, then proven and widely used tools; build your own only as a last resort.
 - Follow Anthropic's best practices (https://code.claude.com/docs/en/best-practices), and steer me toward them when I drift (for example /clear between tasks, or a fresh session to build from a spec).
 - When I state a rule, you learn a lesson, or our way of working changes (a skill we now use almost always, a new Claude feature), put it in the narrowest file that fits (this repo's CLAUDE.md or a skill) as a general rule with its reason. If a hook or check could enforce it, suggest that instead. A rule I state applies at once; a lesson you notice becomes a proposed rule when it happens a second time.
 - When I give you a rule that would help every project, end that reply with one line suggesting: /core:promote <the rule>.
