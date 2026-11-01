@@ -1,0 +1,14 @@
+{
+  "name": "claude-setup",
+  "owner": {
+    "name": "vonRoX"
+  },
+  "description": "Personal Claude Code setup: working principles and a promotion loop",
+  "plugins": [
+    {
+      "name": "core",
+      "source": "./plugins/core",
+      "description": "Working principles and the promotion loop for Claude Code sessions"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "core",
+  "description": "Working principles and the promotion loop for Claude Code sessions",
+  "author": {
+    "name": "vonRoX"
+  },
+  "repository": "https://github.com/vonRoX/claude-setup",
+  "license": "MIT"
+}
