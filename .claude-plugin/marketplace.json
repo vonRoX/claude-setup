@@ -1,0 +1,12 @@
+{
+  "name": "claude-setup",
+  "description": "vonRoX's central Claude Code setup: rules, skills, agents and mods.",
+  "owner": { "name": "vonRoX" },
+  "plugins": [
+    {
+      "name": "core",
+      "source": "./plugins/core",
+      "description": "Core rules, skills and agents."
+    }
+  ]
+}
