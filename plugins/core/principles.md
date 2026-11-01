@@ -1,1 +1,1 @@
-Canary: gating-A
+Canary: gating-B
