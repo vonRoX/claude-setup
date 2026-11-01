@@ -11,3 +11,5 @@ Shipped files never name a project, path, person, account or version (the
 
 Checks: `claude plugin validate .`, `node --test "scripts/*.test.mjs"`,
 `node scripts/check-principles.mjs plugins/core/principles.md`.
+
+Claude may commit, push, open and merge PRs here without asking. PRs labelled `promotion` wait for the owner.
