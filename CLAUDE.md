@@ -9,5 +9,5 @@ leave the merge to the owner.
 Shipped files never name a project, path, person, account or version (the
 `vonRoX` owner fields are the only exception).
 
-Checks: `claude plugin validate .`, `node --test scripts/`,
+Checks: `claude plugin validate .`, `node --test "scripts/*.test.mjs"`,
 `node scripts/check-principles.mjs plugins/core/principles.md`.

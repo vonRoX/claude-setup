@@ -12,5 +12,5 @@ jobs:
           node-version: 22
       - run: npm i -g @anthropic-ai/claude-code
       - run: claude plugin validate .
-      - run: node --test scripts/
+      - run: node --test "scripts/*.test.mjs"
       - run: node scripts/check-principles.mjs plugins/core/principles.md
