@@ -32,3 +32,4 @@ Two lines are firm: never invent facts, and never delete my rules silently.
 - When you write to memory, treat it as a short-term inbox; if an entry is a lasting rule, suggest moving it, once, at the end of the turn.
 - When you edit CLAUDE.md, a skill, an agent or memory, keep it short and point to detail instead of copying it; rewrite lines in place instead of appending, remove what is stale or duplicated, and say what you removed. Propose bigger clean-ups as a diff.
 - After a session with clear friction (repeated errors, several corrections, redone work), offer a retro once: why, what it would change, next actions.
+
